@@ -7,8 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./success-alert.component.css']
 })
 export class SuccessAlertComponent {
-  username:string=""
-  blah=false
 
 
 
@@ -17,10 +15,36 @@ export class SuccessAlertComponent {
 
 
 
-  reset(){
-    this.username=""
-    this.blah=true
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  // username:string=""
+  // blah=false
+
+  // reset(){
+  //   this.username=""
+  //   this.blah=true
+  // }
 
 
 
