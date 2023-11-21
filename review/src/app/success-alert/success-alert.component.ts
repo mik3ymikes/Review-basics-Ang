@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './success-alert.component.html',
   styleUrls: ['./success-alert.component.css']
 })
+
+
+
 export class SuccessAlertComponent {
 
   blah=true
@@ -15,11 +18,20 @@ export class SuccessAlertComponent {
   details(){
    this.blah=!this.blah
    this.counter+=1
-  //  console.log(this.counter)
+
+
   this.btnClicks.push(this.counter)
-  console.log(this.btnClicks)
-  //  this.btnClicks.push(counter)
-  }
+
+
+
+
+}
+
+
+// getColor(){
+//  return this.counter >5 ? 'blue': 'white'
+
+// }
 
 
 
@@ -31,9 +43,7 @@ export class SuccessAlertComponent {
 
 
 
-
-
-
+}
 
 
 
@@ -61,4 +71,4 @@ export class SuccessAlertComponent {
 
 
 
-}
+
