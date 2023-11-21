@@ -8,6 +8,18 @@ import { Component } from '@angular/core';
 })
 export class SuccessAlertComponent {
 
+  blah=true
+  btnClicks:any=[]
+  counter:number=0
+
+  details(){
+   this.blah=!this.blah
+   this.counter+=1
+  //  console.log(this.counter)
+  this.btnClicks.push(this.counter)
+  console.log(this.btnClicks)
+  //  this.btnClicks.push(counter)
+  }
 
 
 
@@ -37,7 +49,7 @@ export class SuccessAlertComponent {
 
 
 
-  
+
   // username:string=""
   // blah=false
 
