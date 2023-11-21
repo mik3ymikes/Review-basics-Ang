@@ -6,4 +6,7 @@
 <p>{{username}}</p>
 
 <button [disabled]="username==='' " (click)="reset()" class="btn btn-primary"> click me</button>
-<p *ngIf="blah==true">A item was erased</p>
+<p *ngIf="blah==true; else nothing">A item was erased</p>
+<ng-template #nothing>
+  <p>nothign was erased</p>
+</ng-template>
