@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class SuccessAlertComponent {
   username:string=""
-
+  blah=false
 
 
 
@@ -19,8 +19,10 @@ export class SuccessAlertComponent {
 
   reset(){
     this.username=""
-
+    this.blah=true
   }
+
+
 
 
 }
