@@ -34,7 +34,7 @@ export class SuccessAlertComponent {
 
 
 
-// blah:string="ssss"
+// blah:string="ssss"  watchign videos on seeing lifecycles hooks in actoin
 
 //  peeps: sucModel[]=
 //  [ new sucModel('tim', 'show me your moves'),
