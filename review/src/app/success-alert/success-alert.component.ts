@@ -11,21 +11,47 @@ import { Component } from '@angular/core';
 
 export class SuccessAlertComponent {
 
-  blah=true
-  btnClicks:any=[]
-  counter:number=0
-
-  details(){
-   this.blah=!this.blah
-   this.counter+=1
 
 
-  this.btnClicks.push(this.counter)
+
+
+
+
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   blah=true
+//   btnClicks:any=[]
+//   counter:number=0
+
+//   details(){
+//    this.blah=!this.blah
+//    this.counter+=1
+
+
+//   this.btnClicks.push(this.counter)
+
+
+
+
+// }
 
 
 // getColor(){
@@ -34,36 +60,10 @@ export class SuccessAlertComponent {
 // }
 
 
+// username:string=""
+// blah=false
 
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // username:string=""
-  // blah=false
-
-  // reset(){
+// reset(){
   //   this.username=""
   //   this.blah=true
   // }
