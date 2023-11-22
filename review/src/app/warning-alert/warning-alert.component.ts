@@ -7,7 +7,48 @@ import { Component, Input } from '@angular/core';
 })
 export class WarningAlertComponent {
 
-@Input() message:string="hello"
+
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @Input() message:string="hello"

@@ -12,7 +12,6 @@ import { sucModel } from './sucModel';
 
 export class SuccessAlertComponent {
 
-blah:string="ssss"
 
 
 
@@ -35,6 +34,7 @@ blah:string="ssss"
 
 
 
+// blah:string="ssss"
 
 //  peeps: sucModel[]=
 //  [ new sucModel('tim', 'show me your moves'),
