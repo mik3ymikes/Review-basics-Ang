@@ -11,9 +11,9 @@ import { sucModel } from './sucModel';
 
 
 export class SuccessAlertComponent {
- peeps: sucModel[]=
- [ new sucModel('tim', 'show me your moves'),
-  new sucModel('buzz', "to infinity and beyond") ]
+
+
+
 
 
 
@@ -36,6 +36,10 @@ export class SuccessAlertComponent {
 
 
 
+
+//  peeps: sucModel[]=
+//  [ new sucModel('tim', 'show me your moves'),
+//   new sucModel('buzz', "to infinity and beyond") ]
 
 
 
