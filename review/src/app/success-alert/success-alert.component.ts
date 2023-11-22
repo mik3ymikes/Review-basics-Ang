@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { sucModel } from './sucModel';
 
 
 @Component({
@@ -10,7 +11,9 @@ import { Component } from '@angular/core';
 
 
 export class SuccessAlertComponent {
-
+ peeps: sucModel[]=
+ [ new sucModel('tim', 'show me your moves'),
+  new sucModel('buzz', "to infinity and beyond") ]
 
 
 
