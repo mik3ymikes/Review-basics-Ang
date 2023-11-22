@@ -12,7 +12,7 @@ import { sucModel } from './sucModel';
 
 export class SuccessAlertComponent {
 
-
+//binding to custom propr
 
 
 
