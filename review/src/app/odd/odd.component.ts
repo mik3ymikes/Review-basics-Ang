@@ -9,4 +9,6 @@ export class OddComponent {
 
   @Input() oddCount:number=0
 
+  
+
 }

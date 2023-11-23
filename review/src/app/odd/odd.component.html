@@ -1,4 +1,17 @@
 <hr>
 <h1>Beging Odd </h1>
 <hr>
-{{oddCount}}
+
+<p *ngIf="oddCount % 2==1 "> {{oddCount}}</p>
+<!-- {{oddCount}} -->
+
+
+
+
+
+
+<!-- <button [disabled]="username==='' " (click)="reset()" class="btn btn-primary"> click me</button>
+<p *ngIf="blah==true; else nothing">A item was erased</p>
+<ng-template #nothing>
+  <p>nothign was erased</p>
+</ng-template> -->
