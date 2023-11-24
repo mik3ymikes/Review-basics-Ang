@@ -9,3 +9,4 @@ export class AppComponent {
   title = 'review';
 }
 //got to directives deep down
+// do an output example with an input field 

@@ -13,11 +13,13 @@ import { sucModel } from './sucModel';
 export class SuccessAlertComponent {
 
 
+items: string[]=[]
 
 
 
-
-
+addItem(newItem:string){
+  this.items.push(newItem)
+}
 
 
 

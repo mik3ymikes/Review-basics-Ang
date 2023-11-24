@@ -1,9 +1,10 @@
 
-<app-warning-alert></app-warning-alert>
+<app-warning-alert (newItemEvent)="addItem($event)"></app-warning-alert>
 
 
-
-
+<h1> Your Drinks are... </h1>
+<hr>
+<p *ngFor="let item of items"> {{item}}</p>
 
 
 

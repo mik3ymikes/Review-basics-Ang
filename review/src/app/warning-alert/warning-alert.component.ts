@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-warning-alert',
@@ -6,6 +6,14 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./warning-alert.component.css']
 })
 export class WarningAlertComponent {
+
+  @Output() newItemEvent= new EventEmitter<string>
+
+
+
+addDrink(value:string){
+this.newItemEvent.emit(value)
+}
 
 
 
