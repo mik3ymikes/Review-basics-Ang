@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { sucModel } from './sucModel';
 
 
@@ -11,6 +11,7 @@ import { sucModel } from './sucModel';
 
 
 export class SuccessAlertComponent {
+  @ViewChild('serverContent')
 
 
 items: string[]=[]
