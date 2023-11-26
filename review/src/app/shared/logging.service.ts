@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class LoggingService {
 
   constructor() { }
-
+//services practice
 
   log(){
     console.log("a server wa changed")
