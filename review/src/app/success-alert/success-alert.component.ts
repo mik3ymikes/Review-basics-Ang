@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { sucModel } from './sucModel';
+import { LoggingService } from '../shared/logging.service';
 
 
 @Component({
@@ -12,15 +13,25 @@ import { sucModel } from './sucModel';
 
 export class SuccessAlertComponent {
   // @ViewChild('serverContent')
+  constructor(private loggingService:LoggingService){}
 
 
-items: string[]=[]
+  blah(){
+   this.loggingService.log()
+  }
+
+// log(){
+
+// }
+
+
+// items: string[]=[]
 
 
 
-addItem(newItem:string){
-  this.items.push(newItem)
-}
+// addItem(newItem:string){
+//   this.items.push(newItem)
+// }
 
 
 

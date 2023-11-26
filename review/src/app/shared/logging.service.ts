@@ -7,5 +7,10 @@ export class LoggingService {
 
   constructor() { }
 
-  // console.log("a server wa changed")
+
+  log(){
+    console.log("a server wa changed")
+
+  }
+
 }
