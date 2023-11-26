@@ -11,7 +11,7 @@ import { sucModel } from './sucModel';
 
 
 export class SuccessAlertComponent {
-  @ViewChild('serverContent')
+  // @ViewChild('serverContent')
 
 
 items: string[]=[]
