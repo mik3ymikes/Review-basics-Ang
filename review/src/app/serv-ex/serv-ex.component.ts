@@ -15,7 +15,7 @@ export class ServExComponent {
   addUser(value:string){
     this.secUser.push(value)
     console.log(this.secUser)
-   this.usersService.addUsers()
+   this.usersService.addUsers(this.secUser)
   }
 
 }

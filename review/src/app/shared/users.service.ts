@@ -11,10 +11,10 @@ export class UsersService {
 
 
 
-  addUsers(){
+  addUsers(item:any){
     this.counter+=1
     console.log(this.counter)
-    this.Activeusers.push()
+    this.Activeusers.push(item)
     console.log(this.Activeusers)
   }
 
