@@ -6,9 +6,16 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { FormsModule } from '@angular/forms';
 import { ServExComponent } from './serv-ex/serv-ex.component';
+import { Routes } from '@angular/router';
+
+
 // import { GameControlComponent } from './game-control/game-control.component';
 // import { OddComponent } from './odd/odd.component';
 // import { EvenComponent } from './even/even.component';
+
+const appRoutes:Routes=[
+  {path:''}
+]
 
 @NgModule({
   declarations: [
