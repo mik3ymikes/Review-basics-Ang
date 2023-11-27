@@ -11,13 +11,25 @@ export class UsersService {
 
 
 
-  addUsers(item:any){
+  // addUsers(item:any){
+  //   this.counter+=1
+  //   console.log(this.counter)
+  //   this.Activeusers.push(item)
+  //   console.log(this.Activeusers)
+  // }
+
+
+  addUsers(){
     this.counter+=1
     console.log(this.counter)
-    this.Activeusers.push(item)
-    console.log(this.Activeusers)
+    // this.Activeusers.push(item)
+    // console.log(this.Activeusers)
   }
 
+
+  getUsers(){
+    return this.Activeusers.slice()
+  }
 
 
 
