@@ -1,3 +1,5 @@
 <label for="">Add this username</label>
 <input type="text"  #newUser>
 <button (click)="addUser(newUser.value)">Add User</button>
+
+<p *ngFor="let user of  secUser">{{user}}</p>
