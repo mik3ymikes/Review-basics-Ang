@@ -6,6 +6,8 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { FormsModule } from '@angular/forms';
 import { ServExComponent } from './serv-ex/serv-ex.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MainPageComponent } from './main-page/main-page.component';
 
 
 
@@ -21,15 +23,15 @@ import { ServExComponent } from './serv-ex/serv-ex.component';
     WarningAlertComponent,
     SuccessAlertComponent,
     ServExComponent,
+    MainPageComponent,
     // GameControlComponent,
     // OddComponent,
     // EvenComponent
   ],
   imports: [
     BrowserModule,
-
-    // AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
 
   ],
   providers: [],
