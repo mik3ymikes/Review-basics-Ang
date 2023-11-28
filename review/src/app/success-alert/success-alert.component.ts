@@ -20,18 +20,18 @@ export class SuccessAlertComponent {
    this.loggingService.log()
   }
 
-// log(){
+log(){
 
-// }
-
-
-// items: string[]=[]
+}
 
 
+items: string[]=[]
 
-// addItem(newItem:string){
-//   this.items.push(newItem)
-// }
+
+
+addItem(newItem:string){
+  this.items.push(newItem)
+}
 
 
 
