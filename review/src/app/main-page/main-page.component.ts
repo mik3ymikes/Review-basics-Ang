@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.css']
 })
-export class MainPageComponent {
+export class MainPageComponent implements OnInit {
 
 // private servers: {id:number, name:string, status:string}[]=[]
 
@@ -18,5 +19,12 @@ constructor(private router:Router) {}
 
   }
 
+
+  ngOnInit()  {
+      interval(1000).subscribe(count => {
+        console.log(count)
+      })
+  }
+
 }
-//got to configuring 
+//got to configuring
