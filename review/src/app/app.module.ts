@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { ServExComponent } from './serv-ex/serv-ex.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './main-page/main-page.component';
+import { PgNtFoundComponent } from './pg-nt-found/pg-nt-found.component';
 
 
 
@@ -24,6 +25,7 @@ import { MainPageComponent } from './main-page/main-page.component';
     SuccessAlertComponent,
     ServExComponent,
     MainPageComponent,
+    PgNtFoundComponent,
     // GameControlComponent,
     // OddComponent,
     // EvenComponent
