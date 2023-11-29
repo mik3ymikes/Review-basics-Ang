@@ -19,3 +19,4 @@ constructor(private router:Router) {}
   }
 
 }
+//got to configuring 
