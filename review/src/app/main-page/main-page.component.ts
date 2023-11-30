@@ -20,11 +20,15 @@ constructor(private router:Router) {}
   }
 
 
-  ngOnInit()  {
-      interval(1000).subscribe(count => {
-        console.log(count)
-      })
+  ngOnInit(): void {
+
   }
+
+  // ngOnInit()  {
+  //     interval(1000).subscribe(count => {
+  //       console.log(count)
+  //     })
+  // }
 
 }
 //got to configuring
