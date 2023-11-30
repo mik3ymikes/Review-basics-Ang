@@ -10,7 +10,8 @@ import { HttpClient } from '@angular/common/http';
 export class ServExComponent implements OnInit {
   secUser:any=[]
 
-  constructor(public usersService: UsersService){}
+
+  constructor(public usersService: UsersService, private http:HttpClient){}
 
   ngOnInit(){
    this.secUser=this.usersService.getUsers()
@@ -30,12 +31,19 @@ export class ServExComponent implements OnInit {
 
 
 
-  addUser(value:string){
+  addUser(postD:{value:string}){
+   console.log(postD)
 
+    this.http
+    .post(
+      'https://review-28358-default-rtdb.firebaseio.com/posts.json',
+      postD
+      
+      ).subscribe(data=>{
+        console.log(data)
+      })
 
-    this.http.post('https://review-28358-default-rtdb.firebaseio.com/')
-
-  console.log(value)
+  // console.log(value)
 
     // this.secUser.push(value)
     // console.log(this.secUser)
