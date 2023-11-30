@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UsersService } from '../shared/users.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-serv-ex',
@@ -29,12 +30,18 @@ export class ServExComponent implements OnInit {
 
 
 
-  addUser(postData:{content:string}){
+  addUser(value:string){
 
 
+    this.http.post('https://review-28358-default-rtdb.firebaseio.com/')
 
+  console.log(value)
+
+    // this.secUser.push(value)
+    // console.log(this.secUser)
   //  this.usersService.addUsers(this.secUser)
   }
+
 
 
 

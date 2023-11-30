@@ -9,6 +9,7 @@ import { ServExComponent } from './serv-ex/serv-ex.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './main-page/main-page.component';
 import { PgNtFoundComponent } from './pg-nt-found/pg-nt-found.component';
+import {HttpClientModule} from '@angular/common/http'
 
 
 
@@ -26,6 +27,7 @@ import { PgNtFoundComponent } from './pg-nt-found/pg-nt-found.component';
     ServExComponent,
     MainPageComponent,
     PgNtFoundComponent,
+
     // GameControlComponent,
     // OddComponent,
     // EvenComponent
@@ -33,7 +35,8 @@ import { PgNtFoundComponent } from './pg-nt-found/pg-nt-found.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
 
   ],
   providers: [],
