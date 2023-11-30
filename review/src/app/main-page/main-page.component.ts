@@ -22,6 +22,9 @@ constructor(private router:Router) {}
 
   }
 
+
+ 
+
   ngOnInit(): void {
 
   }

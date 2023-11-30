@@ -18,10 +18,21 @@ export class ServExComponent implements OnInit {
   }
 
 
-  addUser(value:string){
+  // addUser(value:string){
 
-    this.secUser.push(value)
-    console.log(this.secUser)
+
+
+  //   this.secUser.push(value)
+  //   console.log(this.secUser)
+  // //  this.usersService.addUsers(this.secUser)
+  // }
+
+
+
+  addUser(postData:{content:string}){
+
+
+
   //  this.usersService.addUsers(this.secUser)
   }
 
