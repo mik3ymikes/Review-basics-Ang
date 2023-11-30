@@ -23,7 +23,7 @@ constructor(private router:Router) {}
   }
 
   ngOnInit(): void {
-      
+
   }
 
   ngOnDestroy(): void {
@@ -31,7 +31,7 @@ constructor(private router:Router) {}
   }
 
 
-  // ngOnInit()  {
+  // ngOnInit()  { backend
   //     this.firstObSub=interval(1000).subscribe(count => {
   //       console.log(count)
   //     })
