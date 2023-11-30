@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { interval } from 'rxjs';
+import { Subscription, interval } from 'rxjs';
 
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.css']
 })
-export class MainPageComponent implements OnInit {
 
-// private servers: {id:number, name:string, status:string}[]=[]
+
+export class MainPageComponent implements OnInit, OnDestroy {
+
+  private firstObSub!: Subscription;
+
 
 constructor(private router:Router) {}
 
@@ -19,15 +22,23 @@ constructor(private router:Router) {}
 
   }
 
-
   ngOnInit(): void {
+      
+  }
+
+  ngOnDestroy(): void {
 
   }
 
+
   // ngOnInit()  {
-  //     interval(1000).subscribe(count => {
+  //     this.firstObSub=interval(1000).subscribe(count => {
   //       console.log(count)
   //     })
+  // }
+
+  // ngOnDestroy(): void {
+  //     this.firstObSub.unsubscribe()
   // }
 
 }
