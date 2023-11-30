@@ -30,7 +30,7 @@ export class ServExComponent implements OnInit {
   // }
 
 
-
+//
   addUser(postD:{value:string}){
    console.log(postD)
 
@@ -38,7 +38,7 @@ export class ServExComponent implements OnInit {
     .post(
       'https://review-28358-default-rtdb.firebaseio.com/posts.json',
       postD
-      
+
       ).subscribe(data=>{
         console.log(data)
       })
