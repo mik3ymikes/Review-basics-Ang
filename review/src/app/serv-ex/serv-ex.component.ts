@@ -8,15 +8,15 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./serv-ex.component.css']
 })
 export class ServExComponent implements OnInit {
-  secUser:any=[]
+  secUser: any = []
 
 
-  constructor(public usersService: UsersService, private http:HttpClient){}
+  constructor(public usersService: UsersService, private http: HttpClient) { }
 
-  ngOnInit(){
-   this.secUser=this.usersService.getUsers()
+  ngOnInit() {
+    this.secUser = this.usersService.getUsers()
 
-   console.log(this.secUser)
+    console.log(this.secUser)
   }
 
 
@@ -28,26 +28,27 @@ export class ServExComponent implements OnInit {
   //   console.log(this.secUser)
   // //  this.usersService.addUsers(this.secUser)
   // }
-//all progress on pet pursuit is not saving as commits
+  //all progress on pet pursuit is not saving as commits
 
-//
-  addUser(postD:{value:string}){
-   console.log(postD)
+  //
+  addUser(postD: { value: string }) {
+    console.log(postD)
 
     this.http
-    .post(
-      'https://review-28358-default-rtdb.firebaseio.com/posts.json',
-      postD
+      .post(
+        'https://review-28358-default-rtdb.firebaseio.com/posts.json',
+        postD
 
-      ).subscribe(data=>{
+      ).subscribe(data => {
         console.log(data)
       })
 
-  // console.log(value)
+    // console.log(value)
+    //working on pet log
 
     // this.secUser.push(value)
     // console.log(this.secUser)
-  //  this.usersService.addUsers(this.secUser)
+    //  this.usersService.addUsers(this.secUser)
   }
 
 
